@@ -1,0 +1,77 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.grid1 {
+  background-color: rgb(240, 240, 240);
+  background: linear-gradient(to right, e7e7e7, #ffffff);
+  padding: 10px;
+}
+
+.grid2 {
+  background: linear-gradient(to bottom, #56ccf2, #2f80ed);
+  color: white;
+  padding: 10px;
+}
+
+.info-conhecimentos,
+.resumo,
+.ex1,
+.ex2 {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #dbdbdb;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.titulo {
+  margin: 10px 01px;
+}
+
+.header {
+  max-width: 720px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: auto;
+}
+
+.outro {
+  margin-right: auto;
+  max-width: 360px;
+}
+
+.subtitulo {
+  margin-bottom: 5px;
+}
+
+.subsubtitulo {
+  margin: 5px 0;
+}
+
+span {
+  color: #b4b4b4;
+}
+
+ul {
+  margin-left: 5px;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 3px;
+}
+
+p {
+  margin-bottom: 3px;
+}
